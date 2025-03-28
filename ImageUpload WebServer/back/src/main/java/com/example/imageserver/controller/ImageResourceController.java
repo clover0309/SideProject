@@ -23,7 +23,7 @@ public class ImageResourceController {
     private String uploadDir;
 
     @GetMapping("/{filename:.+}")
-    public ResponseEntity<Resource> serveImage(@PathVariable String filename) {
+    public ResponseEntity<Resource> serveImage(@PathVariable("filename") String filename) {
         try {
             Path uploadPath = Paths.get(uploadDir).toAbsolutePath().normalize();
             Path filePath = uploadPath.resolve(filename).normalize();

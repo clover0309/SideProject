@@ -85,7 +85,7 @@ function ImageUpload() {
                         alt="업로드된 이미지" 
                         style={{ maxWidth: '300px', maxHeight: '300px' }} 
                     />
-                    <p>이미지 URL: {uploadedImageUrl}</p>
+                    <p>이미지 URL: localhost:8080{uploadedImageUrl}</p>
                 </div>
             )}
         </div>
