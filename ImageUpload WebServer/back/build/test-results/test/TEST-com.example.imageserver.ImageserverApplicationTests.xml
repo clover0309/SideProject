@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.imageserver.ImageserverApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-28T00:09:49.885Z" hostname="DESKTOP-5JE1SNC" time="0.827">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.imageserver.ImageserverApplicationTests" time="0.827"/>
+  <system-out><![CDATA[09:09:47.532 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.imageserver.ImageserverApplicationTests]: ImageserverApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:09:47.696 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.imageserver.ImageserverApplication for test class com.example.imageserver.ImageserverApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-03-28T09:09:48.182+09:00  INFO 22952 --- [imageserver] [    Test worker] c.e.i.ImageserverApplicationTests        : Starting ImageserverApplicationTests using Java 17.0.13 with PID 22952 (started by JongYeop in C:\My_Study\SideProject\ImageUpload WebServer\back)
+2025-03-28T09:09:48.182+09:00  INFO 22952 --- [imageserver] [    Test worker] c.e.i.ImageserverApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-03-28T09:09:49.819+09:00  INFO 22952 --- [imageserver] [    Test worker] c.e.i.ImageserverApplicationTests        : Started ImageserverApplicationTests in 1.937 seconds (process running for 3.236)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
